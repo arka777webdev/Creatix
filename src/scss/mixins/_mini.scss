@@ -24,28 +24,6 @@ $browser-context: 16; // Default
 }
 
 
-@mixin flex-all-center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@mixin flex-all-sb{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-@mixin flex-column-start{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-}
-
-
-
 @mixin footerToBottom {
   display: grid;
   grid-template-columns: 100%;
